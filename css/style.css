@@ -72,7 +72,7 @@ header{
     height: 500px;
     background-image: url(../img/jumbo.png);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     background-position: center;
 }
 
@@ -83,7 +83,7 @@ header{
 }
 
 #inner-header{
-    height: 100%;
+    padding-top: 150px;
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -133,6 +133,8 @@ p{
     border-radius: 20px;
 
 }
+
+/* main  */
 
 .partition{
     width: 100%;
@@ -196,6 +198,8 @@ p{
 #mac-bottom{
     background-color: #1093aa;
 }
+
+/* footer  */
 
 footer{
     width: 100%;
